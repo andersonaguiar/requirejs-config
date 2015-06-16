@@ -1,0 +1,12 @@
+{
+  "name": "JSOnDemand",
+  "version": "0.0.1",
+  "author": "Gabriel Zigolis <gabriel.zigolis@gmail.com>",
+  "description": "JSOnDemand examples",
+  "private": false,
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*"
+  }
+}

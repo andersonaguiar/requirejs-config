@@ -1,0 +1,9 @@
+{
+  "name": "JSOnDemand",
+  "version": "0.0.1",
+  "homepage": "https://github.com/andersonaguiar/JSOnDemand",
+  "license": "MIT",
+  "devDependencies": {
+    "requirejs": "*"
+  }
+}
