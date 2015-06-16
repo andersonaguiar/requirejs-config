@@ -1,6 +1,6 @@
 #RequireJS
 
-These are some examples using RequireJS to load Javascript on demand
+RequireJS configuration to load Javascript on demand
 
 
 ## Requirements
@@ -51,3 +51,5 @@ These are the basic requirements for your application:
 ## Credits
 
 [@zigolis](https://github.com/zigolis/)
+
+Original project: https://github.com/zigolis/JSOnDemand
