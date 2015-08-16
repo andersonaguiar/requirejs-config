@@ -1,9 +1,8 @@
 {
-  "name": "JSOnDemand",
+  "name": "requirejs-config",
   "version": "0.0.1",
-  "author": "Gabriel Zigolis <gabriel.zigolis@gmail.com>",
-  "description": "JSOnDemand examples",
-  "private": false,
+  "author": "Anderson Aguiar <andersonaguiar.web@gmail.com>",
+  "description": "RequireJS Config",
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-concat": "*",
