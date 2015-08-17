@@ -1,9 +1,12 @@
 {
-  "name": "JSOnDemand",
+  "name": "requirejs-config",
   "version": "0.0.1",
-  "homepage": "https://github.com/andersonaguiar/JSOnDemand",
+  "homepage": "https://github.com/andersonaguiar/requirejs-config",
   "license": "MIT",
   "devDependencies": {
     "requirejs": "*"
+  },
+  "dependencies": {
+    "loadcss": "~0.1.7"
   }
 }
