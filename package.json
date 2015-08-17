@@ -1,11 +1,28 @@
 {
   "name": "requirejs-config",
   "version": "0.0.1",
-  "author": "Anderson Aguiar <andersonaguiar.web@gmail.com>",
+  "title": "RequireJS Config",
   "description": "RequireJS Config",
+  "author": {
+    "name": "Anderson Aguiar",
+    "email": "andersonaguiar.web@gmail.com",
+    "url": "https://github.com/andersonaguiar"
+  },
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*"
+    "browser-sync": "^2.6.0",
+    "gulp": "*",
+    "gulp-concat": "^2.5.2",
+    "gulp-filesize": "0.0.6",
+    "gulp-load-plugins": "*",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-stylus": "^1.0.1",
+    "gulp-uglify": "~0.1.0",
+    "gulp-util": "~2.2.9",
+    "nib": "^1.1.0",
+    "require-dir": "^0.1.0"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
   }
 }
