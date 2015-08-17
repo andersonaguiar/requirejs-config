@@ -1,6 +1,9 @@
 gulp.task(
   'dev',
   [
+    'copy-assets',
+    'require',
+    config.preprocessor.choice,
     'watch',
     'browserSync'
   ]

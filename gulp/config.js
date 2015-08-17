@@ -30,8 +30,8 @@ global['config'] = module.exports = {
     server: { baseDir: path.dest }
   },
   images: {
-    src:  path.src + '/images/**',
-    dest: path.dest + '/assets/images'
+    src:  path.src + '/img/**/*',
+    dest: path.dest + '/assets/img'
   },
   markup: {
     src:  path.src + '/**/*.html',
@@ -46,12 +46,12 @@ global['config'] = module.exports = {
   },
   preprocessor: {
     choice: 'stylus', //sass or stylus
-    src:    path.src + '/stylus/**/*.styl', //dir of sass or stylus
+    src:    path.src + '/assets/stylus/**/*.styl', //dir of sass or stylus
     dest:   path.dest + '/assets/css' //dir of css dest
   },
 
   require: {
-    dest: path.dest + '/js',
+    dest: path.dest + '/assets/js',
     map: [
       {
         src: [

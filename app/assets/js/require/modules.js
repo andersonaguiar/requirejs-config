@@ -1,24 +1,24 @@
 var modules = [
   {
     module  : 'general',
-    path    : 'general'
+    path    : 'general.min'
   },
   {
     module  : 'header',
-    path    : 'general'
+    path    : 'general.min'
   },
   {
     module  : 'footer',
-    path    : 'general'
+    path    : 'general.min'
   },
   {
     module  : 'cart',
-    path    : 'cart/cart',
+    path    : 'cart.min',
     require : 'cart'
   },
   {
     module  : 'home',
-    path    : 'home/home',
+    path    : 'home.min',
     require : 'home'
   }
 ];

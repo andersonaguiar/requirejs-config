@@ -2,6 +2,11 @@
 <html>
   <head>
     <title>RequireJS</title>
+
+    <script src="vendor/loadcss/loadCSS.js"></script>
+    <script id="loadcss">
+      loadCSS('assets/css/main.min.css', document.getElementById('loadcss'));
+    </script>
   </head>
   <body data-require="home">
     <h1>/#!/</h1>
@@ -10,6 +15,6 @@
       <li><a href="cart.html">Cart</a></li>
     </ul>
 
-    <script data-main="../build/js/main" src="../vendor/requirejs/require.js"></script>
+    <script data-main="asssets/js/main.min" src="vendor/requirejs/require.js"></script>
   </body>
 </html>
